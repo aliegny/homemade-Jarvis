@@ -1,0 +1,44 @@
+name: jarvis_app
+description: Jarvis AI Assistant with Gemini & Local Fallback
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Gemini AI
+  google_generative_ai: ^0.4.6
+
+  # Speech & Audio
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.2.0
+
+  # Bluetooth
+  flutter_blue_plus: ^1.35.3
+
+  # Networking & Connectivity
+  http: ^1.1.0
+  connectivity_plus: ^6.1.4
+
+  # State Management
+  provider: ^6.1.2
+
+  # Local Storage
+  shared_preferences: ^2.3.3
+
+  # Animations & UI
+  lottie: ^3.3.1
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
