@@ -22,19 +22,47 @@
 
 ### **Adım 1: Gerekli Araçlar**
 
-Telefonunda şunlar kurulu olmalı:
+#### **Bilgisayarında Flutter Kur**
+
+**Windows/Mac/Linux (Seç birini):**
+
+##### **Windows:**
+1. https://flutter.dev/docs/get-started/install/windows git
+2. **Flutter SDK indir** (en son sürüm, `.zip` olarak)
+3. `C:\flutter` klasörüne aç
+4. **Cmd veya PowerShell aç**, şu yazı yaz:
+```bash
+cd C:\flutter\bin
+flutter doctor
+```
+
+##### **Mac:**
+```bash
+cd ~
+git clone https://github.com/flutter/flutter.git -b stable
+export PATH="$PATH:$HOME/flutter/bin"
+flutter doctor
+```
+
+##### **Linux (Ubuntu/Debian):**
+```bash
+cd ~
+git clone https://github.com/flutter/flutter.git -b stable
+export PATH="$PATH:$HOME/flutter/bin"
+flutter doctor
+```
+
+#### **Telefonunda:**
 - ✅ **Termux** (F-Droid'den indir, Play Store değil)
 - ✅ **Flutter** (Termux'ta kurulu)
 
-Bilgisayarında:
-- ✅ **Git** (versiyon kontrolü için)
-- ✅ **Android SDK** (Flutter için)
-
-**Kontrol et:**
+#### **Kontrol Et:**
 ```bash
 flutter --version
 git --version
 ```
+
+**Çıkmazsa → Flutter yolunu `PATH`'e ekle (Google'da ara)**
 
 ---
 
